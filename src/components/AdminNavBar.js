@@ -1,5 +1,4 @@
 import React from "react";
-
 function AdminNavBar({ onChangePage }) {
   return (
     <nav>
@@ -8,5 +7,3 @@ function AdminNavBar({ onChangePage }) {
     </nav>
   );
 }
-
-export default AdminNavBar;

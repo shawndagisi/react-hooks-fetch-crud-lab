@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import AdminNavBar from "./AdminNavBar";
 import QuestionForm from "./QuestionForm";
 import QuestionList from "./QuestionList";
-
 function App() {
   const [page, setPage] = useState("List");
-
   return (
     <main>
       <AdminNavBar onChangePage={setPage} />
@@ -13,5 +11,3 @@ function App() {
     </main>
   );
 }
-
-export default App;
